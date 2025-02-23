@@ -20,11 +20,15 @@ body {
 .Navbar {
   background-color: white;
   padding: 20px;
+  display: flex;
+  justify-content: center; /* Center the navbar */
+  align-items: center;
 }
 .Navbar ul {
   list-style: none;
   display: flex;
-  justify-content: center; /* Centered the navigation bar */
+  justify-content: center; /* Ensure navbar items are centered */
+  padding: 0;
 }
 .Navbar li {
   margin: 0 20px; /* Adjusted spacing between nav items */
