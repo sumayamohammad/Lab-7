@@ -15,7 +15,7 @@ body {
   color: white;
   padding: 80px 40px;
   font-weight: bold;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Added box-shadow */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 .Navbar {
   background-color: white;
@@ -24,11 +24,10 @@ body {
 .Navbar ul {
   list-style: none;
   display: flex;
-  justify-content: flex-start; /* Align links to the left */
+  justify-content: center; /* Centered the navigation bar */
 }
 .Navbar li {
-  float: left; /* Floating nav links to the left */
-  margin-right: 20px;
+  margin: 0 20px; /* Adjusted spacing between nav items */
 }
 .Navbar a {
   color: black;
@@ -64,11 +63,11 @@ h2 {
 }
 .Content-Section {
   width: 100%;
-  overflow: hidden; /* Prevents layout breaking */
+  overflow: hidden;
   margin-bottom: 20px;
 }
 .Card {
-  width: 30%; /* Ensure 3 cards fit per row */
+  width: 30%;
   float: left;
   border: 1px solid #ddd;
   border-radius: 10px;
